@@ -42,5 +42,20 @@
             margin-top: 5px;
             font-size: 1.25rem;
         }
+
+        &.skills {
+            width: 100%;
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-between;
+            &.title {
+                margin: 20px 0;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                border-bottom: 1px solid white;
+                padding-bottom: 10px;
+            }
+        }
     }
 }

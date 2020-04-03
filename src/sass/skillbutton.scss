@@ -1,0 +1,37 @@
+.skill {
+    &.button {
+        width: 65px;
+        height: 65px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        font-weight: 900;
+        font-family: "Varela Round", sans-serif;
+        &.green {
+            border: 5px solid $green;
+            color: $green;
+        }
+
+        &.red {
+            border: 5px solid $red;
+            color: $red;
+        }
+
+        &.teal {
+            border: 5px solid $teal;
+            color: $teal;
+        }
+
+        &.blue {
+            border: 5px solid $blue;
+            color: $blue;
+        }
+
+        &.gray {
+            border: 5px solid $gray;
+            color: $gray;
+        }
+    }
+}
