@@ -1,3 +1,4 @@
-import DropdownButton from './DropdownButton';
+import DropdownButton from "./DropdownButton";
+import SkillButton from "./SkillButton";
 
-export { DropdownButton };
+export { DropdownButton, SkillButton };

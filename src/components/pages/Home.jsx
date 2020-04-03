@@ -1,5 +1,5 @@
 import React from "react";
-import { Page } from "../";
+import { Page, SkillButton } from "../";
 import Image from "../../assets/images/ivana-cajina-asuyh-_ZX54-unsplash.jpg";
 import { Link } from "react-router-dom";
 
@@ -18,7 +18,13 @@ const Home = ({ className = "" }) => {
                     </p>
                 </section>
 
-                <section className="resume skills"></section>
+                <section className="resume skills">
+                    <h3 className="resume skills title">Skills</h3>
+                    <SkillButton color="teal" text="W" />
+                    <SkillButton color="red" text="R" />
+                    <SkillButton color="green" text="G" />
+                    <SkillButton color="blue" text="B" />
+                </section>
             </div>
         </Page>
     );
