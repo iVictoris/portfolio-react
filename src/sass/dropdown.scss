@@ -26,6 +26,7 @@
         &.show {
             transform: translateY(214px);
             transition: all 0.5s;
+            z-index: 5000;
         }
     }
 }
