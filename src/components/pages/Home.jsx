@@ -20,10 +20,8 @@ const Home = ({ className = "" }) => {
 
                 <section className="resume skills">
                     <h3 className="resume skills title">Skills</h3>
-                    <SkillButton color="teal" text="W" />
-                    <SkillButton color="red" text="R" />
-                    <SkillButton color="green" text="G" />
-                    <SkillButton color="blue" text="B" />
+                    <SkillButton color="green" text="F" />
+                    <SkillButton color="teal" text="B" />
                 </section>
             </div>
         </Page>
