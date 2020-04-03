@@ -1,5 +1,5 @@
 import React from "react";
-import { Page, SkillButton } from "../";
+import { Page, SkillButton, SkillView } from "../";
 import Image from "../../assets/images/ivana-cajina-asuyh-_ZX54-unsplash.jpg";
 import { Link } from "react-router-dom";
 
@@ -23,6 +23,8 @@ const Home = ({ className = "" }) => {
                     <SkillButton color="green" text="F" />
                     <SkillButton color="teal" text="B" />
                 </section>
+
+                <SkillView />
             </div>
         </Page>
     );
