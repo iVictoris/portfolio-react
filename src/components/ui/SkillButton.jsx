@@ -20,7 +20,6 @@ const SkillButton = ({
     return (
         <div
             className={`skill button ${className} ${color}`.trim()}
-            onClick={eventHandler}
             onMouseOver={eventHandler}>
             {text}
         </div>
