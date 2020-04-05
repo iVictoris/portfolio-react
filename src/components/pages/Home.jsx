@@ -1,12 +1,10 @@
-import React from "react";
-import { Page, SkillButton, SkillView } from "../";
-import Image from "../../assets/images/ivana-cajina-asuyh-_ZX54-unsplash.jpg";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Page, SkillButton, SkillView } from '../';
+import { Link } from 'react-router-dom';
 
-const Home = ({ className = "" }) => {
+const Home = ({ className = '' }) => {
     return (
         <Page className="home">
-            <img src={Image} alt="galaxy background" />
             <div className="resume overview">
                 <header>
                     <h3>I'm Victor Tran</h3>
