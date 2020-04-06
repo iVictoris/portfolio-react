@@ -8,30 +8,62 @@
         align-items: center;
         font-size: 4rem;
         font-weight: 900;
-        font-family: "Varela Round", sans-serif;
+        font-family: 'Varela Round', sans-serif;
         &.green {
             border: 5px solid $green;
             color: $green;
+
+            // &:active,
+            // &:hover {
+            //     border: 5px solid darken($color: $green, $amount: 10);
+            //     color: darken($color: $green, $amount: 10);
+            // }
         }
 
         &.red {
             border: 5px solid $red;
             color: $red;
+            // &:active,
+            // &:hover {
+            //     border: 5px solid darken($color: $red, $amount: 10);
+            //     color: darken($color: $red, $amount: 10);
+            // }
         }
 
         &.teal {
             border: 5px solid $teal;
             color: $teal;
+            // &:active,
+            // &:hover {
+            //     border: 5px solid darken($color: $teal, $amount: 10);
+            //     color: darken($color: $teal, $amount: 10);
+            // }
         }
 
         &.blue {
             border: 5px solid $blue;
             color: $blue;
+            // &:active,
+            // &:hover {
+            //     border: 5px solid darken($color: blue, $amount: 10);
+            //     color: darken($color: blue, $amount: 10);
+            // }
         }
 
         &.gray {
             border: 5px solid $gray;
             color: $gray;
+            // &:active,
+            // &:hover {
+            //     border: 5px solid darken($color: gray, $amount: 10);
+            //     color: darken($color: gray, $amount: 10);
+            // }
+        }
+
+        &:hover,
+        &:active {
+            border: 5px solid $red;
+            color: $red;
         }
     }
 }
