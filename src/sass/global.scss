@@ -1,29 +1,71 @@
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 *::before,
 *,
 *::after {
-  margin: 0;
-  box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
 
 .button {
-  border-radius: 5px;
-  cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: url('../assets/images/ivana-cajina-asuyh-_ZX54-unsplash.jpg')
+        center no-repeat;
+    &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1;
+    }
+
+    @media (min-width: 500px) {
+        padding: 0 15%;
+    }
+
+    @media (min-width: 800px) {
+        padding: 0 20%;
+    }
+
+    @media (min-width: 1000px) {
+        padding: 0 25%;
+    }
+
+    @media (min-width: 1300px) {
+        padding: 0 28%;
+    }
+
+    @media (min-width: 1600px) {
+        padding: 0 32%;
+    }
+}
+
+a {
+    text-decoration: none;
 }

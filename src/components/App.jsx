@@ -1,11 +1,19 @@
 import React from 'react';
-import { PulldownButton } from './';
+import { DropdownButton, PulldownMenu, Home, About, Projects } from './';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
     return (
         <div className="App">
-            <nav className="nav-menu"></nav>
-            <PulldownButton />
+            <nav className="nav-menu">
+                <PulldownMenu />
+            </nav>
+            <DropdownButton />
+            <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/about" component={About} />
+                <Route path="/projects" component={Projects} />
+            </Switch>
         </div>
     );
 }
