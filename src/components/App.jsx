@@ -1,5 +1,5 @@
 import React from 'react';
-import { DropdownButton, PulldownMenu, Home, About } from './';
+import { DropdownButton, PulldownMenu, Home, About, Projects } from './';
 import { Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/about" component={About} />
+                <Route path="/projects" component={Projects} />
             </Switch>
         </div>
     );
