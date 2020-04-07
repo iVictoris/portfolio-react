@@ -1,7 +1,7 @@
-import App from "./App";
-import { DropdownButton, SkillButton, SkillView } from "./ui/";
-import { PulldownMenu } from "./nav";
-import { Home, Page } from "./pages";
+import App from './App';
+import { DropdownButton, SkillButton, SkillView } from './ui/';
+import { PulldownMenu } from './nav';
+import { Home, Page, About } from './pages';
 
 export {
     App,
@@ -9,6 +9,7 @@ export {
     PulldownMenu,
     Home,
     Page,
+    About,
     SkillButton,
-    SkillView
+    SkillView,
 };
