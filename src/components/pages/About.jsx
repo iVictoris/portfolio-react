@@ -61,11 +61,21 @@ const About = () => {
                 </p>
 
                 <p>
-                    I've been coding in mostly JavaScript now, using React and
-                    it's html-like JSX tags. I would say the reason I haven't
-                    gotten a job is the ridiculous requirements tech jobs place
-                    for a 'junior' role, that coupled with the low-balled rates
-                    some recruiters want to hire for.
+                    I've been coding in mostly JavaScript now, both in the front
+                    using React and it's html-like JSX tags, and the back with
+                    NodeJS runtime environment along with Express/Apollo Server.
+                    I would say the reason I haven't gotten a job is the
+                    ridiculous requirements tech jobs place for a 'junior' role.
+                    It's like the department that wrote the requirements don't
+                    know what they're talking about asking for a front end
+                    developer skilled in NodeJS/AWS/.NET/Go lang. That coupled
+                    with the low-balled rates some companies want to hire for
+                    even the though the potential ROI is huge. They say&nbsp;"
+                    <a href="https://medium.com/javascript-scene/why-cutting-costs-is-expensive-how-9-hour-software-engineers-cost-boeing-billions-b76dbe571957">
+                        being cheap is expensive
+                    </a>
+                    ", so maybe it might be best to learn a thing or two from
+                    Boeing.
                 </p>
 
                 <p>
