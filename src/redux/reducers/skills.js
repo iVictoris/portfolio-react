@@ -4,7 +4,7 @@ const initialState = {
     active: '',
     B: {
         skill: 'Backend',
-        overview: `The backend is responsible for the business logic of the web application. It provides data through an API (application platform interface), or in layman's terms, a way to access data through a set of urls. I've experience building RESTful APIs and Graphs using GraphQL compatible technologies.`,
+        overview: `The backend is responsible for the business logic of the web application. It provides data through an API (application programming interface), or in layman's terms, a way to access data through a set of urls. I've experience building RESTful APIs and Graphs using GraphQL compatible technologies.`,
         skills: [
             {
                 name: 'NodeJS',
