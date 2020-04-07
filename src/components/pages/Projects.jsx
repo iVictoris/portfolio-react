@@ -17,10 +17,7 @@ const Projects = ({
             repoLink: 'Portfolio v2',
             description: `This project that you're looking at. This is a React project with Redux and preprocessor SASS. It showcases my skills in the home page, a bit about me in the About Me page, projects in the Project Page, and lastly, a way to contact me with work opportunities. `,
             role: 'Front End',
-            contribution: ((240 / 258) * 100)
-                .toString()
-                .substr(0, 5)
-                .concat('%'),
+            contribution: ((1 / 1) * 100).toString().substr(0, 5).concat('%'),
             time: '1 week',
         },
         {
