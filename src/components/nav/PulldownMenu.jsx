@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { toggleModal } from '../../redux';
 
 const PulldownMenu = ({ className = '', show, toggleModal }) => {
-    const clickHandler = e => {
+    const clickHandler = (e) => {
         toggleModal('pulldownMenu');
     };
     return (
@@ -21,9 +21,9 @@ const PulldownMenu = ({ className = '', show, toggleModal }) => {
             <Link to="/projects" onClick={clickHandler}>
                 Projects
             </Link>
-            <Link to="/contacts" onClick={clickHandler}>
+            {/* <Link to="/contacts" onClick={clickHandler}>
                 Contact
-            </Link>
+            </Link> */}
         </div>
     );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import { DropdownButton, PulldownMenu, Home, About, Projects } from './';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
 function App() {
     return (
@@ -13,6 +13,7 @@ function App() {
                 <Route path="/" exact component={Home} />
                 <Route path="/about" component={About} />
                 <Route path="/projects" component={Projects} />
+                <Redirect to="/" />
             </Switch>
         </div>
     );
