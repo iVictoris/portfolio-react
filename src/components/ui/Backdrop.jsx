@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { toggleModal } from '../../redux/actions';
 
-const Backdrop = ({ name, modal }) => {
+const Backdrop = ({ name, modal, toggleModal }) => {
     const handleClick = (e) => {
         e.stopPropagation();
         toggleModal(name);
