@@ -83,6 +83,10 @@
         border-bottom: 1px solid white;
         padding-left: 15px;
         letter-spacing: 0.05rem;
+
+        &:last-child {
+            border-bottom: unset;
+        }
     }
 }
 
