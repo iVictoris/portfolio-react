@@ -1,5 +1,12 @@
 import React from 'react';
-import { DropdownButton, PulldownMenu, Home, About, Projects } from './';
+import {
+    DropdownButton,
+    PulldownMenu,
+    Home,
+    About,
+    Projects,
+    Contact,
+} from './';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 function App() {
@@ -13,6 +20,7 @@ function App() {
                 <Route path="/" exact component={Home} />
                 <Route path="/about" component={About} />
                 <Route path="/projects" component={Projects} />
+                <Route path="/contact" component={Contact} />
                 <Redirect to="/" />
             </Switch>
         </div>

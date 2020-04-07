@@ -21,9 +21,9 @@ const PulldownMenu = ({ className = '', show, toggleModal }) => {
             <Link to="/projects" onClick={clickHandler}>
                 Projects
             </Link>
-            {/* <Link to="/contacts" onClick={clickHandler}>
+            <Link to="/contact" onClick={clickHandler}>
                 Contact
-            </Link> */}
+            </Link>
         </div>
     );
 };

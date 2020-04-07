@@ -1,7 +1,7 @@
 import App from './App';
 import { DropdownButton, SkillButton, SkillView } from './ui/';
 import { PulldownMenu } from './nav';
-import { Home, Page, About, Projects } from './pages';
+import { Home, Page, About, Projects, Contact } from './pages';
 
 export {
     App,
@@ -10,6 +10,7 @@ export {
     Home,
     Page,
     About,
+    Contact,
     Projects,
     SkillButton,
     SkillView,

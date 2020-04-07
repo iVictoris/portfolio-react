@@ -135,3 +135,50 @@
         }
     }
 }
+
+.contact {
+    .main {
+        margin-top: 10px;
+        text-align: center;
+
+        .method {
+            .card {
+                background: rgba(0, 0, 0, 0.55);
+                padding: 10px 0;
+                box-shadow: -2px 2px 4px rgba(255, 255, 255, 0.5);
+                border-radius: 5px;
+                margin-bottom: 15px;
+                &:first-child {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    h4 {
+        font-size: 2rem;
+    }
+
+    .method {
+        height: 100%;
+        & > section {
+            margin-bottom: 10px;
+        }
+
+        & section > p {
+            margin-bottom: 5px;
+            font-size: 1.25rem;
+
+            &:first-child {
+                margin-top: 5px;
+            }
+        }
+    }
+
+    .social {
+        & a {
+            display: block;
+            font-size: 1.25rem;
+            margin-top: 5px;
+        }
+    }
+}
