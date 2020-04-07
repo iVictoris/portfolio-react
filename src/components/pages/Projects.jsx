@@ -12,6 +12,19 @@ const Projects = ({
     const projects = [
         {
             id: randomIDGenerator(),
+            title: 'Personal Portfolio v2',
+            repo: 'https://github.com/iVictoris/portfolio-react',
+            repoLink: 'Portfolio v2',
+            description: `This project that you're looking at. This is a React project with Redux and preprocessor SASS. It showcases my skills in the home page, a bit about me in the About Me page, projects in the Project Page, and lastly, a way to contact me with work opportunities. `,
+            role: 'Front End',
+            contribution: ((240 / 258) * 100)
+                .toString()
+                .substr(0, 5)
+                .concat('%'),
+            time: '1 week',
+        },
+        {
+            id: randomIDGenerator(),
             title: 'Optimal AirBnB',
             repo: 'https://www.github.com/AirBnBOptimalPricing/FE',
             repoLink: 'Optimal AirBnB Pricing Repo',
@@ -91,15 +104,17 @@ const Projects = ({
                 <div className="project card" key={id}>
                     <header>
                         <h4>{title}</h4>
-                        <p>
-                            &nbsp;&mdash;{' '}
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href={`${live}`}>
-                                Live
-                            </a>
-                        </p>
+                        {live && (
+                            <p>
+                                &nbsp;&mdash;{' '}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href={`${live}`}>
+                                    Live
+                                </a>
+                            </p>
+                        )}
                     </header>
                     <section className="content">
                         <section className="stat">
