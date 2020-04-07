@@ -54,6 +54,25 @@ nav {
     &.show {
         z-index: 10000;
         transform: translateY(0);
-        transition: all 0.5s;
+        transition: all 0.25s;
+    }
+}
+
+.backdrop {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0;
+    transition: all 0.25s 0.35s;
+    background: rgba(0, 0, 0, 0.8);
+
+    &.show {
+        z-index: 5000;
+        opacity: 1;
+        transition: all 0.25s 0.15s;
+        filter: blur(3px);
     }
 }

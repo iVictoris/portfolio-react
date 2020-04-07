@@ -6,6 +6,7 @@ import {
     About,
     Projects,
     Contact,
+    Backdrop,
 } from './';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
@@ -14,6 +15,7 @@ function App() {
         <div className="App">
             <nav className="nav-menu">
                 <PulldownMenu />
+                <Backdrop name="pulldownMenu" />
             </nav>
             <DropdownButton />
             <Switch>
