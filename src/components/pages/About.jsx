@@ -82,10 +82,11 @@ const About = () => {
                     My current journey has me in Lambda's coding school. I do
                     want to say that I did NOT have to go this route, but I'm
                     mostly here for the networking opportunity that they have.
-                    I've not learned anything new in the period between April
-                    2018 to November 2019 (the date I enrolled in Lambda
-                    School), I've learned all that which Lambda School has to
-                    offer even before enrolling.
+                    I've learned many things, from redux to site optimization,
+                    critical render path, to advanced data structures and
+                    algorithms in the period between April 2018 to November 2019
+                    (the date I enrolled in Lambda School), I've learned all
+                    that which Lambda School has to offer even before enrolling.
                 </p>
             </section>
         </Page>
