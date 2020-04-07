@@ -50,13 +50,13 @@ const initialState = {
         skills: [
             {
                 name: 'HTML5',
-                overview: `It is a new version of the language HTML, with new elements, attributes, and behaviors, and a larger set of technologies that allows the building of more diverse and powerful Web sites and applications.`,
-                experience: 5,
+                overview: `It is a new version of the HTML language, with new elements, attributes, and behaviors, and a larger set of technologies that allows the building of more diverse and powerful Web sites and applications.`,
+                experience: 7,
             },
             {
-                name: 'CSS',
-                overview: `CSS is the latest evolution of the Cascading Style Sheets language. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. `,
-                experience: 5,
+                name: 'CSS3',
+                overview: `CSS3 is the latest evolution of the Cascading Style Sheets language. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. `,
+                experience: 7,
             },
             {
                 name: 'JavaScript',
